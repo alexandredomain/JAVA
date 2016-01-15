@@ -4,10 +4,11 @@ import java.util.Scanner;
 /**
  * @author Alexandre Domain
  */
+
 public class SolutionsTrinome {
     
     public static void main(String[] args) {
-        System.out.println("ax²+bx+c=0");
+        System.out.println("Soit ax² + bx + c = 0");
         System.out.println(solTrinome(inputDouble("entrez a :"),inputDouble("entrez b :"),inputDouble("entrez c :"))) ;
     }
     
@@ -24,7 +25,7 @@ public class SolutionsTrinome {
         }
     }
     
-    /*
+    /* // Pour mémoire ...
     public static String inputString(String demande){
       Scanner sc = new Scanner(System.in);
       System.out.println(demande);
