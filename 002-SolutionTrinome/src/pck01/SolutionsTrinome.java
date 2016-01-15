@@ -1,4 +1,4 @@
-package solutionstrinome;
+package pck01;
 
 /**
  * @author Alexandre Domain

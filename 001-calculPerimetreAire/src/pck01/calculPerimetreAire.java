@@ -3,7 +3,7 @@ package pck01;
 /**
  * @author Alexandre Domain
  */
-public class calculPerimetreAire {
+public class CalculPerimetreAire {
     
     static double pi = 3.14159200 ; // variable doit être définie en dehors des méthodes mais dans la classe pour pouvoir être utilisée dans toutes les méthodes de cette classe --> pas de variables globales dans JAVA
     
