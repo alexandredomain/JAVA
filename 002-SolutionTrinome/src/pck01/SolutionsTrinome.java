@@ -9,7 +9,7 @@ public class SolutionsTrinome {
     
     public static void main(String[] args) {
         System.out.println("Soit ax² + bx + c = 0");
-        System.out.println(solTrinome(inputDouble("entrez a :"),inputDouble("entrez b :"),inputDouble("entrez c :"))) ;
+        System.out.println(solTrinome(inputDouble("Entrez a :"),inputDouble("Entrez b :"),inputDouble("Entrez c :"))) ;
     }
     
     public static String solTrinome(double a, double b, double c) {
@@ -21,7 +21,12 @@ public class SolutionsTrinome {
             return ("Racine double : " + -b/(2*a));
         }
         else {
-            return("Racine complexes : " + -b/(2*a) + -Math.sqrt(-d)/(2*a) + "i" + " et " + -b/(2*a) + "+" + +Math.sqrt(-d)/(2*a) + "i");
+            if (a<0) {
+                return("Racine complexes : " + -b/(2*a) + "+" + -Math.sqrt(-d)/(2*a) + "i" + " et " + -b/(2*a) + +Math.sqrt(-d)/(2*a) + "i");
+            }
+            else {
+                return("Racine complexes : " + -b/(2*a) + -Math.sqrt(-d)/(2*a) + "i" + " et " + -b/(2*a) + "+" + +Math.sqrt(-d)/(2*a) + "i");
+            }
         }
     }
     
