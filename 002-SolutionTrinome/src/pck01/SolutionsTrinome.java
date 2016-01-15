@@ -15,7 +15,7 @@ public class SolutionsTrinome {
     public static String solTrinome(double a, double b, double c) {
         double d = b * b - 4 * a * c ;
         if (a==0) {
-            return ("Ceci n'est pas un trinôme ax² + bx + c... Merci de choisir un 'a' non nul").
+            return ("Ceci n'est pas un trinôme ax² + bx + c... Merci de choisir un 'a' non nul");
         }
         else {
             if (d>0) {
