@@ -1,6 +1,12 @@
+# Ignorer les .class, les objets et les archives et les fichiers temp terminant par ~ #
 *.class
+*.[oa]
+*~
 
-# Mobile Tools for Java (J2ME)
+# Ne pas mettre le cours #
+/Cours
+
+# Mobile Tools for Java (J2ME) #
 .mtj.tmp/
 
 # Package Files #
@@ -10,3 +16,22 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# NetBeans_ignore #
+build/
+dist/
+nbproject/*
+!project.xml
+!project.properties
+private/
+nbbuild/
+nbdist/
+src/**/*
+!*.java
+test/
+build-impl.xml
+build.xml
+genfiles.properties
+nbactions.xml
+nb-configuration.xml
+manifest.mf
