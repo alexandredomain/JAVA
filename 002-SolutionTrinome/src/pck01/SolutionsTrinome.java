@@ -37,19 +37,19 @@ public class SolutionsTrinome {
     
     /* // Pour mémoire ...
     public static String inputString(String demande){
-      Scanner sc = new Scanner(System.in);
+      Scanner input = new Scanner(System.in);
       System.out.println(demande);
       //On vide la ligne avant d'en lire une autre
-      sc.nextLine();
-      String str = sc.nextLine();      
+      input.nextLine();
+      String str = input.nextLine();      
       return str;
     }
     */
     
     public static double inputDouble(String demande){
-      Scanner sc = new Scanner(System.in);
+      Scanner input = new Scanner(System.in);
       System.out.println(demande);
-      double nb = sc.nextDouble();    
+      double nb = input.nextDouble();    
       return nb;
     }
     
