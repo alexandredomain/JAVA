@@ -5,14 +5,14 @@ import java.util.Scanner;
  * @author Alexandre Domain
  */
 
-public class Factoriel {
+public class FactorielIteratif {
 
     public static void main(String[] args) {
-        System.out.println(calculFactoriel(inputInt("Choisir n pour calculer n! :")));
+        System.out.println(calculFactorielIteratif(inputInt("Choisir n pour calculer n! :")));
     }
     
-    public static int calculFactoriel(int n) {
-        if (n>=0) {
+    public static int calculFactorielIteratif(int n) {
+        if (n>=2) { // cas 0 et 1 traités dans le else, avec les négatifs
             int i, resultat=1;
             for (i=2;i<=n;i++) {
                 resultat *= i;
@@ -20,7 +20,7 @@ public class Factoriel {
             return resultat;
         }
         else {
-            return 0;
+            return 1;
         }
     }
     
